@@ -23,4 +23,5 @@ class Person(models.Model):
     date_entered = models.DateField()
     skill = models.CharField(max_length=400)
     
-#admin.site.register(Person,District)
+admin.site.register(Person)
+admin.site.register(District)
